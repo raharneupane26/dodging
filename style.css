@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+}
+
+#gameframe {
+  position: absolute;
+  width: 350px;
+  height: 500px;
+  background-color: lightsteelblue;
+  overflow: hidden;
+}
+
+.screen {
+  background-color: white;
+  width: 330px;
+  height: 480px;
+  border-radius: 20px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.button{
+  background-color: midnightblue;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 20px;
+  width: 190px;
+  height: 40px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 200px;
+  cursor: pointer;
+}
+
+
+
+h1 {
+  font-size: 38px;
+  color: midnightblue;
+  text-align: center;
+  margin-top: 100px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
+
+#againbutton {
+  margin-top: 100px;
+}
+
+#scorescreen {
+  visibility: hidden;
+}
+
+#paddle {
+  position: absolute;
+  top: 480px;
+  left: 135px;
+  background-color: sienna;
+  height: 20px;
+  width: 80px;
+  visibility: hidden;
+}
